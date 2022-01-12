@@ -1,6 +1,16 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+[2022-01-12] Version 7.6.1
+--------------------------
+**Library - Chore**
+- [PR #1320](https://github.com/sendgrid/sendgrid-nodejs/pull/1320): adjust 'packages/mail/src/mail.d.ts'. Thanks to [@collierrgbsitisfise](https://github.com/collierrgbsitisfise)!
+- [PR #1325](https://github.com/sendgrid/sendgrid-nodejs/pull/1325): update license year. Thanks to [@JenniferMah](https://github.com/JenniferMah)!
+
+**Library - Docs**
+- [PR #1324](https://github.com/sendgrid/sendgrid-nodejs/pull/1324): fix npm docs link. Thanks to [@arvindell](https://github.com/arvindell)!
+
+
 [2021-11-03] Version 7.6.0
 --------------------------
 **Library - Docs**
