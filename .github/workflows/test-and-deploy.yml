@@ -17,7 +17,7 @@ jobs:
     timeout-minutes: 20
     strategy:
       matrix:
-        node: [ 6, 7, 8, 10, lts/* ]
+        node: [ 6, 7, 8, 10, lts ]
     env:
       version: ${{ matrix.node }}
     steps:
@@ -29,9 +29,9 @@ jobs:
         with:
           node-version: ${{ matrix.node }}
 
-      - name: Reset env vars
-        if: env.version == 'lts/*'
-        run: echo "version=lts" >> "$GITHUB_ENV"
+#      - name: Reset env vars
+#        if: env.version == 'lts/*'
+#        run: echo "version=lts" >> "$GITHUB_ENV"
 
       - run: npm install
       - name: Run Tests
